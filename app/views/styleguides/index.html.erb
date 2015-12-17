@@ -1,0 +1,13 @@
+<nav class="navbar navbar-full navbar-fixed-top navbar-dark bg-inverse">
+  <a class="navbar-brand" href="#">
+    <%= image_tag "logos/codeplace_white.svg", alt: "Codeplace Style Guides", class: "navbar-logo" %>
+    <span class="navbar-subtitle">Style Guides</span>
+  </a>
+</nav>
+<%= render 'styleguides/renders/sidebar' %>
+<div class="container page-wrapper ms-spacing">
+  <%= render 'styleguides/renders/colors' %>
+  <%= render 'styleguides/renders/buttons' %>
+  <%= render 'styleguides/renders/forms' %>
+  <%= render 'styleguides/renders/icons' %>
+</div>
