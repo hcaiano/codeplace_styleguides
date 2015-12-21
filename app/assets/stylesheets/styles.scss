@@ -359,3 +359,59 @@ body {
 /* BROWSER FIXES [END]
 ============================= 
 */
+
+/* TABS
+============================= 
+*/
+
+.nav-tabs .nav-item {
+    text-transform: uppercase;
+    font-size: $font-size-md;
+    line-height: 3rem;
+    height: 3rem;
+    letter-spacing: .03em;
+
+    a.dropdown-item {
+        text-transform: capitalize;
+        font-size: $font-size-md;
+    }
+}
+
+.nav-tabs .nav-link {
+    border: 0;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    height: 3rem;
+    line-height: 3rem;
+    border-bottom: 2px solid transparent;
+    padding: 0 1.5rem;
+    font-weight: $font-regular;
+}
+
+.nav-tabs .nav-item + .nav-item {
+    margin-left: 2rem;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover, .nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-item.open .nav-link:hover {
+    background-color: #fff;
+    border-color: $brand-primary;
+    color: $gray-dark;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: $gray-light;
+    color: $gray;
+}
+
+a.nav-link {
+    color: $gray-light;
+}
+
+/* TABS [END]
+============================= 
+*/
