@@ -8,12 +8,12 @@ DOCUMENT INFORMATION
 /* CSS DIRECTORY
 
 1.  = UTILITIES
-  # Colors
-  # Positions
-  # Typography
+# Colors
+# Positions
+# Typography
 
 2.  = BOOTSTRAP OVERRIDES
-  # Blue Outline Remove (Buttons)
+# Blue Outline Remove (Buttons)
 
 3.  = TYPOGRAPHY
 
@@ -22,9 +22,11 @@ DOCUMENT INFORMATION
 5.  = BODY & HTML
 
 6.  = WEBSITE ELEMENTS
-  # Minimal Sidebar
+# Minimal Sidebar
 
 7.  = NAVBAR
+
+8. = BROWSER FIXES
 */
 
 /* UTILITIES
@@ -152,6 +154,40 @@ DOCUMENT INFORMATION
 
     .c-select:focus {
         border-color: $gray-light;
+    }
+
+    .btn-group {
+        display: flex;
+    }
+
+    .dropdown-toggle {
+        width: 100%;
+        text-align: left;
+        padding: 0.65rem 0.85rem;
+        display: inline-block;
+        max-width: 100%;
+        color: #4F5963;
+        vertical-align: middle;
+        background: #fff url("icons/multiselect.png") no-repeat right 0.75rem center;
+        background-size: 8px 10px;
+        border: 1px solid #ced7df;
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+    .open > .dropdown-menu {
+        display: block;
+        width: 100% !important;
+        margin-top: -1px;
+    }
+
+    .multiselect-container > li > a > label {
+        font-weight: $font-light;
+        line-height: 1.3;
+        font-size: $font-size-md;
+        padding: 0.3rem 1rem 0.3rem 2rem;
     }
 }
 
@@ -309,4 +345,17 @@ body {
 }
 
 /* NAVBAR [END]
-============================= */
+============================= 
+*/
+
+/* BROWSER FIXES
+============================= 
+*/
+
+:focus {
+    outline: none !important;
+}
+
+/* BROWSER FIXES [END]
+============================= 
+*/

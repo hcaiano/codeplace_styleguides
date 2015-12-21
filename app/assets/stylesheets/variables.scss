@@ -39,7 +39,7 @@ $gray-light:                #818a91 !default;
 $gray-lighter:              #ced7df !default;
 $gray-lightest:             #f4f7f9 !default;
 
-$brand-primary:             #1FBAD6 !default;
+$brand-primary:             #1A9EBA !default;
 $brand-success:             #1FBF66 !default;
 $brand-info:                #00ECE4 !default;
 $brand-warning:             #FFDE00 !default;
@@ -86,3 +86,9 @@ $margin-xs: 15px;
 $margin-sm: 25px;
 $margin-md: 40px;
 $margin-lg: 75px;
+
+// Dropdowns
+//
+// Dropdown menu container and contents.
+
+$dropdown-border-color:          $brand-border !default;

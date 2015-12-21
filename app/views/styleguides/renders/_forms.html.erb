@@ -42,4 +42,30 @@
     <div class="clearfix m-t-2"></div>
     <script src="https://gist.github.com/hcaiano/0aab42a1423a74fb37f6.js"></script>
   </div>
+  <div class="col-sm-12">
+    <h6 class="gray m-y-2">
+      Simple Select
+    </h6>
+    <form>
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Example Multi Select</label>
+        <select class="multi-select" multiple="multiple">
+          <option value="cheese">Cheese</option>
+          <option value="tomatoes">Tomatoes</option>
+          <option value="mozarella">Mozzarella</option>
+          <option value="mushrooms">Mushrooms</option>
+          <option value="pepperoni">Pepperoni</option>
+          <option value="onions">Onions</option>
+        </select>
+      </fieldset>
+    </form>
+    <div class="clearfix m-t-2"></div>
+    <script src="https://gist.github.com/hcaiano/0aab42a1423a74fb37f6.js"></script>
+  </div>
 </div>
+<!-- Initialize the plugin: -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.multi-select').multiselect();
+    });
+</script>
