@@ -366,14 +366,14 @@ body {
 
 .nav-tabs .nav-item {
     text-transform: uppercase;
-    font-size: $font-size-md;
+    font-size: $font-size-sm;
     line-height: 3rem;
     height: 3rem;
     letter-spacing: .03em;
 
     a.dropdown-item {
         text-transform: capitalize;
-        font-size: $font-size-md;
+        font-size: $font-size-sm;
     }
 }
 
@@ -400,7 +400,7 @@ body {
 .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover, .nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-item.open .nav-link:hover {
     background-color: #fff;
     border-color: $brand-primary;
-    color: $gray-dark;
+    color: $brand-primary;
 }
 
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
