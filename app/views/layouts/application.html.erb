@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Codeplace</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-
-  <!-- IONIC ICONS -->
-  <%= stylesheet_link_tag "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" %>
-
-  <!-- COPY TO CLIPBOARD PLUGIN -->
-  <%= javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.5/clipboard.min.js" %>
-
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Codeplace</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <!-- IONIC ICONS -->
+    <%= stylesheet_link_tag "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" %>
+    <!-- COPY TO CLIPBOARD PLUGIN -->
+    <%= javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.5/clipboard.min.js" %>
+    <!-- SERIF FONT -->
+    <script src="https://use.typekit.net/idq2lnc.js"></script>
+    <script>
+      try{Typekit.load({ async: true });}catch(e){}
+    </script>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
 </html>

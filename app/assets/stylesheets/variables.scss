@@ -1,7 +1,7 @@
 // Typography
 
-$font-family-sans-serif:     'Titillium Web', sans-serif !important;
-$font-family-serif:          'Merriweather', serif !important;
+$font-family-sans-serif:     'Titillium Web', sans-serif !default;
+$font-family-serif:          "chaparral-pro",Georgia,Cambria,"Times New Roman",Times,serif !default;
 
 $font-size-root:             15px !default;
 
@@ -29,6 +29,9 @@ $font-size-md:               0.9rem !default;
 $font-size-sm:               .875rem !default;
 $font-size-xs:               .75rem !default;
 
+$font-size-reading: 1.4rem !default;
+$font-size-reading-xs: 1.2rem !default;
+$font-size-reading-lg: 1.6rem !default;
 
 // Colors
 
@@ -38,6 +41,8 @@ $gray:                      #4F5963 !default;
 $gray-light:                #818a91 !default;
 $gray-lighter:              #ced7df !default;
 $gray-lightest:             #f4f7f9 !default;
+
+$gray-reading:              #555 !default;
 
 $brand-primary:             #1A9EBA !default;
 $brand-success:             #1FBF66 !default;
